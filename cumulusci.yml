@@ -1,0 +1,84 @@
+project:
+    name: HOT-Demo
+    package:
+        name:  CumulusCI HOT Demo
+        api_version: '44.0'
+
+tasks:
+    query_demo_data:
+        description: Retrieves the demo data from the target org
+        class_path: cumulusci.tasks.bulkdata.QueryData
+        group: datasets
+        options:
+            database_url: 'sqlite:///datasets/demo.db'
+            mapping: datasets/mapping.yml
+
+    load_demo_data:
+        description: Loads the demo data to the target org
+        class_path: cumulusci.tasks.bulkdata.LoadData
+        group: datasets
+        options:
+            database_url: 'sqlite:///datasets/demo.db'
+            mapping: datasets/mapping.yml
+
+    dump_demo_data:
+        description: Dumps the sqlite database to a SQL script for storage in repository
+        class_path: cumulusci.tasks.command.Command
+        options:
+            command: sqlite3 datasets/demo.db .dump > datasets/demo.sql
+
+    remove_demo_data:
+        description: Deletes the demo data sqlite database
+        class_path: cumulusci.tasks.util.Delete
+        options:
+            path: datasets/demo.db
+
+    remove_demo_data_sql:
+        description: Deletes the demo data SQL script
+        class_path: cumulusci.tasks.util.Delete
+        options:
+            path: datasets/demo.sql
+
+    create_demo_data:
+        description: Creates a sqlite database from the SQL script
+        class_path: cumulusci.tasks.command.Command
+        options:
+            command: cat datasets/demo.sql | sqlite3 datasets/demo.db
+
+flows:
+    config_qa:
+        steps:
+            3:
+                flow: load_demo_data
+
+    retrieve_scratch:
+        steps:
+            2:
+                options:
+                    extra: --forceoverwrite
+
+    query_demo_data:
+        description: Runs SOQL queries against the target org and populates the datasets/demo.sql file
+        steps:
+            1:
+                task: remove_demo_data
+            2:
+                task: remove_demo_data_sql
+            3:
+                task: query_demo_data
+            4:
+                task: dump_demo_data
+            5:
+                task: remove_demo_data
+
+    load_demo_data:
+        description: Runs SOQL queries against the target org and populates the datasets/demo.sql file
+        steps:
+            1:
+                task: remove_demo_data
+            2:
+                task: create_demo_data
+            3:
+                task: load_demo_data
+            4:
+                task: remove_demo_data

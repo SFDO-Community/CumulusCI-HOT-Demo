@@ -1,0 +1,10 @@
+{
+  "orgName": "CumulusCI HOT Demo - Feature Test Org",
+  "edition": "Developer",
+  "orgPreferences" : {
+    "enabled": [
+      "S1DesktopEnabled",
+      "ChatterEnabled"
+    ]
+  }
+}
