@@ -1,0 +1,19 @@
+Insert Accounts:
+    sf_object: Account
+    table: accounts
+    fields:
+        Id: sf_id
+        Name: name
+
+Insert CumulusCI Demos:
+    sf_object: CumulusCI_Demo__c
+    table: cumulusci_demo
+    fields:
+        Id: sf_id
+        Name: name
+    lookups:
+        Account__c:
+            key_field: account_id
+            table: accounts
+            join_field: account_id
+            value_field: sf_id
