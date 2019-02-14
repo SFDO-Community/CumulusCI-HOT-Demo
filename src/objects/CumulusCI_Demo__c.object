@@ -66,6 +66,25 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>Demo_Date__c</fullName>
+        <description>A field used to demo the relative data functionality of CumulusCI bulk datasets</description>
+        <externalId>false</externalId>
+        <label>Demo Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Jlantz__c</fullName>
+        <externalId>false</externalId>
+        <label>Jlantz</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>CumulusCI Demo</label>
     <listViews>
         <fullName>All</fullName>

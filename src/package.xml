@@ -7,6 +7,8 @@
     </types>
     <types>
         <members>CumulusCI_Demo__c.Account__c</members>
+        <members>CumulusCI_Demo__c.Demo_Date__c</members>
+        <members>CumulusCI_Demo__c.Jlantz__c</members>
         <name>CustomField</name>
     </types>
     <types>

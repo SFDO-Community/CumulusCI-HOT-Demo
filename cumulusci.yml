@@ -5,23 +5,42 @@ project:
         api_version: '44.0'
 
 tasks:
+    robot_perf:
+        description: Run performance tests
+        class_path: cumulusci.tasks.robotframework.Robot
+        options:
+            include: perf
+    query_demo_data_pg:
+        description: Retrieves the demo data from the target org
+        class_path: cumulusci.tasks.bulkdata.QueryData
+        group: datasets
+        options:
+            database_url: 'postgres:///hotdemo'
+            mapping: datasets/mapping.yml
+
+    load_demo_data_pg:
+        description: Loads the demo data to the target org
+        class_path: cumulusci.tasks.bulkdata.LoadData
+        group: datasets
+        options:
+            database_url: 'postgres:///hotdemo'
+            mapping: datasets/mapping.yml
+
     query_demo_data:
         description: Retrieves the demo data from the target org
         class_path: cumulusci.tasks.bulkdata.QueryData
         group: datasets
         options:
-            database_url: 'sqlite:///datasets/demo.db'
             mapping: datasets/mapping.yml
-            sqlite_dump: datasets/demo.sql
+            sql_path: datasets/demo.sql
 
     load_demo_data:
         description: Loads the demo data to the target org
         class_path: cumulusci.tasks.bulkdata.LoadData
         group: datasets
         options:
-            database_url: 'sqlite:///datasets/demo.db'
             mapping: datasets/mapping.yml
-            sqlite_load: datasets/demo.sql
+            sql_path: datasets/demo.sql
 
 flows:
     config_qa:
