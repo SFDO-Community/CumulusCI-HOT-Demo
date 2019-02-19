@@ -10,18 +10,16 @@ tasks:
         class_path: cumulusci.tasks.bulkdata.QueryData
         group: datasets
         options:
-            database_url: 'sqlite:///datasets/demo.db'
             mapping: datasets/mapping.yml
-            sqlite_dump: datasets/demo.sql
+            sql_path: datasets/demo.sql
 
     load_demo_data:
         description: Loads the demo data to the target org
         class_path: cumulusci.tasks.bulkdata.LoadData
         group: datasets
         options:
-            database_url: 'sqlite:///datasets/demo.db'
             mapping: datasets/mapping.yml
-            sqlite_load: datasets/demo.sql
+            sql_path: datasets/demo.sql
 
 flows:
     config_qa:
