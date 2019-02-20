@@ -79,6 +79,16 @@
         <type>Currency</type>
   </fields>
   <fields>
+        <fullName>jlantz__c</fullName>
+        <externalId>false</externalId>
+        <label>jlantz</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>NPSP_is_awesome__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
