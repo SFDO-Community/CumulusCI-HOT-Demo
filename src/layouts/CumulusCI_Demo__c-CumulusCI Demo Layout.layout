@@ -16,7 +16,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>jlantz__c</field>
+                <field>NPSP_is_awesome__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
