@@ -3,6 +3,7 @@ project:
     package:
         name:  CumulusCI HOT Demo
         api_version: '44.0'
+        namespace: ccihotdemo1
 
 tasks:
     query_demo_data:
