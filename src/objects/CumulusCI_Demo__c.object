@@ -66,6 +66,18 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>DonationToAndrew__c</fullName>
+        <description>Money you should give to me</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Put a big number here</inlineHelpText>
+        <label>DonationToAndrew</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
     <label>CumulusCI Demo</label>
     <listViews>
         <fullName>All</fullName>
