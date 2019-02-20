@@ -69,6 +69,7 @@
     <fields>
         <fullName>Is_Bender_Great__c</fullName>
         <defaultValue>true</defaultValue>
+        <description>Text</description>
         <externalId>false</externalId>
         <label>Is Bender Great</label>
         <trackTrending>false</trackTrending>
