@@ -6,6 +6,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>Account.MONEY__c</members>
         <members>CumulusCI_Demo__c.Account__c</members>
         <members>CumulusCI_Demo__c.NPSP_is_awesome__c</members>
         <name>CustomField</name>
@@ -23,6 +24,10 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>Account-Account %28Marketing%29 Layout</members>
+        <members>Account-Account %28Sales%29 Layout</members>
+        <members>Account-Account %28Support%29 Layout</members>
+        <members>Account-Account Layout</members>
         <members>CumulusCI_Demo__c-CumulusCI Demo Layout</members>
         <name>Layout</name>
     </types>
