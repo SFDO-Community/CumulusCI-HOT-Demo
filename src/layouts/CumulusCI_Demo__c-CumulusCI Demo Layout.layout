@@ -16,8 +16,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>DonationToAndrew__c</field>
           </layoutItems>
           <layoutItems>
