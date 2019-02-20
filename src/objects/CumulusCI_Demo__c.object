@@ -66,6 +66,15 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>MartinKoName__c</fullName>
+        <description>Martin&apos;s name</description>
+        <externalId>false</externalId>
+        <label>MartinKoName</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
     <label>CumulusCI Demo</label>
     <listViews>
         <fullName>All</fullName>
