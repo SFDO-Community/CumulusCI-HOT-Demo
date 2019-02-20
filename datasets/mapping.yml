@@ -12,3 +12,5 @@ Insert CumulusCI Demos:
     lookups:
         Account__c:
             table: accounts
+    relative_date:
+        Demo_Date__c: demo_date

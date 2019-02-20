@@ -66,6 +66,15 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>Demo_Date__c</fullName>
+        <description>A field used to demo the relative data functionality of CumulusCI bulk datasets</description>
+        <externalId>false</externalId>
+        <label>Demo Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
     <label>CumulusCI Demo</label>
     <listViews>
         <fullName>All</fullName>

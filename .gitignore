@@ -1,0 +1,5 @@
+.sfdx/
+force-app/
+log.html
+output.xml
+report.html
