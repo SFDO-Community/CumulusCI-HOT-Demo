@@ -1,0 +1,320 @@
+[
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1550620717004,
+            "changeTime": 1550620717004,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1550620717004,
+            "changeTime": 1550620717004,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 256,
+            "modifiedTime": 1550620737113,
+            "changeTime": 1550620737113,
+            "contentHash": "a6479c87b870d30f09488de66ce6aa0279e02f6b"
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/applications",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/applications",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1550620717006,
+            "changeTime": 1550620717006,
+            "contentHash": "76a22a4b05fa81ce9a9616fb86dfe4f55b48bb5c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/applications/CumulusCI_Demo.app-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/applications/CumulusCI_Demo.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 697,
+            "modifiedTime": 1550620717006,
+            "changeTime": 1550620717006,
+            "contentHash": "b7e27c7a0249e553c3744a6bb2c10df3a6f82d1f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/flexipages",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/flexipages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1550620717009,
+            "changeTime": 1550620717009,
+            "contentHash": "8027bd49250ad354b6f3f171d6d8f15090143082",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/flexipages/CumulusCI_Demo_UtilityBar.flexipage-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/flexipages/CumulusCI_Demo_UtilityBar.flexipage-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 509,
+            "modifiedTime": 1550620717010,
+            "changeTime": 1550620717010,
+            "contentHash": "17fb254ff798ab47dc1d88eb3ee6e0e0c5c725a7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/layouts",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1550620717019,
+            "changeTime": 1550620717019,
+            "contentHash": "35bbaeab036415a32a73d69ceaaba3515fd618a0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/layouts/CumulusCI_Demo__c-CumulusCI Demo Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/layouts/CumulusCI_Demo__c-CumulusCI Demo Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3027,
+            "modifiedTime": 1550620737129,
+            "changeTime": 1550620737129,
+            "contentHash": "9660a325e46a08417b8355927e63da620308d3bb"
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1550620717039,
+            "changeTime": 1550620717039,
+            "contentHash": "4e4f7490ddde245f0d0faca3416305c2df2c0052",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 160,
+            "modifiedTime": 1550620717045,
+            "changeTime": 1550620717045,
+            "contentHash": "5b6d0f962f71c64956c4e968459569627df7cd89",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c/CumulusCI_Demo__c.object-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c/CumulusCI_Demo__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2132,
+            "modifiedTime": 1550620717040,
+            "changeTime": 1550620717040,
+            "contentHash": "60baae4fc038b8a257f4a78b9274ff9216870c0f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c/fields",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1550620737121,
+            "changeTime": 1550620737121,
+            "contentHash": "e8c8e2ef2c2cab08c71ce8719cddd91c2abca690"
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c/fields/Account__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c/fields/Account__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 694,
+            "modifiedTime": 1550620717045,
+            "changeTime": 1550620717045,
+            "contentHash": "f6c1b4b019b06194c0aa7d864b66a88422768eb0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c/listViews",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c/listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1550620717045,
+            "changeTime": 1550620717045,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c/listViews/All.listView-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c/listViews/All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 204,
+            "modifiedTime": 1550620717045,
+            "changeTime": 1550620717045,
+            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/tabs",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/tabs",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1550620717052,
+            "changeTime": 1550620717052,
+            "contentHash": "0ccb478170357a670bccb8140702d2b0fed9f4b0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/tabs/CumulusCI_Demo__c.tab-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/tabs/CumulusCI_Demo__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 300,
+            "modifiedTime": 1550620717052,
+            "changeTime": 1550620717052,
+            "contentHash": "ce2b477d33ab427f1aac5e9c9b327a519ea939a0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 416,
+            "modifiedTime": 1550620716941,
+            "changeTime": 1550620716941,
+            "contentHash": "026d163702d38ddf6bd13ddc595bd249fcf093d8",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/settings/OrgPreference.settings-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/settings/OrgPreference.settings-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 6383,
+            "modifiedTime": 1550620737116,
+            "changeTime": 1550620737116,
+            "contentHash": "53153da293978b02d191b6ae64f72eae1e200c56"
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c/fields/MartinKoName__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/objects/CumulusCI_Demo__c/fields/MartinKoName__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 371,
+            "modifiedTime": 1550620737121,
+            "changeTime": 1550620737121,
+            "contentHash": "3cc308b5019472ad0f68da17529757bcb0af5b1e"
+        }
+    ],
+    [
+        "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/settings",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mko/CumulusCI-HOT-Demo/force-app/main/default/settings",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1550620737116,
+            "changeTime": 1550620737116,
+            "contentHash": "51a767161ecb76df77be39042e42cbb2d91005fb"
+        }
+    ]
+]
