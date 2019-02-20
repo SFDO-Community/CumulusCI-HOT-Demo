@@ -7,6 +7,7 @@
     </types>
     <types>
         <members>CumulusCI_Demo__c.Account__c</members>
+        <members>CumulusCI_Demo__c.Clem__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -28,6 +29,10 @@
     <types>
         <members>CumulusCI_Demo__c.All</members>
         <name>ListView</name>
+    </types>
+    <types>
+        <members>OrgPreference</members>
+        <name>Settings</name>
     </types>
     <version>44.0</version>
 </Package>
