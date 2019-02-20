@@ -67,6 +67,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>DonationToAndrew__c</fullName>
+        <description>Money you should give to me</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Put a big number here</inlineHelpText>
+        <label>DonationToAndrew</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+  </fields>
+  <fields>
         <fullName>jlantz__c</fullName>
         <externalId>false</externalId>
         <label>jlantz</label>
