@@ -65,8 +65,7 @@
         <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
+    
         <fullName>reilly_colors__c</fullName>
         <description>colors.</description>
         <externalId>false</externalId>
@@ -111,10 +110,20 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
-   </fields>
+  
 
   
-  <fields>
+  
+        <fullName>jlantz__c</fullName>
+        <externalId>false</externalId>
+        <label>jlantz</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+   
+
         <fullName>NPSP_is_awesome__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
