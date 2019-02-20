@@ -66,6 +66,17 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>Eric_Kenney__c</fullName>
+        <description>Issue #7</description>
+        <externalId>false</externalId>
+        <label>Eric Kenney</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>CumulusCI Demo</label>
     <listViews>
         <fullName>All</fullName>
