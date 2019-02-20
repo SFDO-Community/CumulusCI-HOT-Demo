@@ -65,8 +65,55 @@
         <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
+    
+        <fullName>reilly_colors__c</fullName>
+        <description>colors.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>choose a color.</inlineHelpText>
+        <label>reilly_colors</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ruby red</fullName>
+                    <default>false</default>
+                    <label>ruby red</label>
+                </value>
+                <value>
+                    <fullName>green of new growth</fullName>
+                    <default>false</default>
+                    <label>green of new growth</label>
+                </value>
+                <value>
+                    <fullName>sunshine yellow</fullName>
+                    <default>false</default>
+                    <label>sunshine yellow</label>
+                </value>
+                <value>
+                    <fullName>orange orange</fullName>
+                    <default>false</default>
+                    <label>orange orange</label>
+                </value>
+                <value>
+                    <fullName>deep sea blue</fullName>
+                    <default>false</default>
+                    <label>deep sea blue</label>
+                </value>
+                <value>
+                    <fullName>black as the night</fullName>
+                    <default>false</default>
+                    <label>black as the night</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+  
+
+  
+  
         <fullName>jlantz__c</fullName>
         <externalId>false</externalId>
         <label>jlantz</label>
@@ -75,8 +122,8 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
+   
+
         <fullName>NPSP_is_awesome__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -84,6 +131,7 @@
         <label>NPSP is awesome</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+
     </fields>
     <label>CumulusCI Demo</label>
     <listViews>

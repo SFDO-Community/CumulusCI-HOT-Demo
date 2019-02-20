@@ -16,8 +16,16 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+
                 <field>NPSP_is_awesome__c</field>
+
             </layoutItems>
+      
+      <layoutItems>
+                <behavior>Edit</behavior>
+                <field>reilly_colors__c</field>
+            </layoutItems>
+      
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
