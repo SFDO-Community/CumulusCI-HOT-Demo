@@ -111,6 +111,18 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+   </fields>
+
+  
+  <fields>
+        <fullName>NPSP_is_awesome__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Is NPSP awesome?</inlineHelpText>
+        <label>NPSP is awesome</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+
     </fields>
     <label>CumulusCI Demo</label>
     <listViews>

@@ -8,6 +8,10 @@
     <types>
         <members>CumulusCI_Demo__c.Account__c</members>
         <members>CumulusCI_Demo__c.reilly_colors__c</members>
+  </types>
+
+        <members>CumulusCI_Demo__c.NPSP_is_awesome__c</members>
+<types>
         <name>CustomField</name>
     </types>
     <types>
