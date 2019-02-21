@@ -7,6 +7,7 @@
     </types>
     <types>
         <members>CumulusCI_Demo__c.Account__c</members>
+        <members>CumulusCI_Demo__c.msladeFieldDemo__c</members>
         <members>CumulusCI_Demo__c.NPSP_is_awesome__c</members>
         <name>CustomField</name>
     </types>

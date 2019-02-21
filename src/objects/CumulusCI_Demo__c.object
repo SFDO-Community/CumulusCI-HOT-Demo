@@ -67,6 +67,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>msladeFieldDemo__c</fullName>
+        <externalId>false</externalId>
+        <label>msladeFieldDemo</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>jlantz__c</fullName>
         <externalId>false</externalId>
         <label>jlantz</label>
