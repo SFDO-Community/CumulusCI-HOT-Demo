@@ -1,9 +1,12 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>CumulusCI_Demo__c.jjoseph__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>CumulusCI_Demo__c-CumulusCI Demo Layout</members>
+        <name>Layout</name>
     </types>
     <version>50.0</version>
 </Package>
