@@ -1,0 +1,41 @@
+{
+    "serverMaxRevisionCounter": 6,
+    "sourceMembers": {
+        "CustomField__CumulusCI_Demo__c.Julian_Test__c": {
+            "serverRevisionCounter": 1,
+            "lastRetrievedFromServer": null,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "Profile__Admin": {
+            "serverRevisionCounter": 6,
+            "lastRetrievedFromServer": null,
+            "memberType": "Profile",
+            "isNameObsolete": false
+        },
+        "Profile__Custom: Sales Profile": {
+            "serverRevisionCounter": 4,
+            "lastRetrievedFromServer": null,
+            "memberType": "Profile",
+            "isNameObsolete": false
+        },
+        "Profile__Custom: Marketing Profile": {
+            "serverRevisionCounter": 3,
+            "lastRetrievedFromServer": null,
+            "memberType": "Profile",
+            "isNameObsolete": false
+        },
+        "Profile__Custom: Support Profile": {
+            "serverRevisionCounter": 5,
+            "lastRetrievedFromServer": null,
+            "memberType": "Profile",
+            "isNameObsolete": false
+        },
+        "Layout__CumulusCI_Demo__c-CumulusCI Demo Layout": {
+            "serverRevisionCounter": 2,
+            "lastRetrievedFromServer": null,
+            "memberType": "Layout",
+            "isNameObsolete": false
+        }
+    }
+}
